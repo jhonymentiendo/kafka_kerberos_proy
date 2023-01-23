@@ -1,0 +1,8 @@
+topLevelRecord.class
+org\example\Producer.class
+org\example\Main.class
+org\example\AvroProducer.class
+topLevelRecord$Builder.class
+org\example\consumer.class
+topLevelRecord$1.class
+org\example\CustomAvroByteReader.class

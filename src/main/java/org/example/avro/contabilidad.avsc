@@ -1,0 +1,1150 @@
+{
+  "type": "record",
+  "name": "topLevelRecord",
+  "fields": [
+    {
+      "name": "fipais",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "ficanal",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fisucursal",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fitipocifra",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "finopedido",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fideptoid",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fitipodepto",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fingcioid",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "finotienda",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "ficteid",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fidigitover",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fipaiscu",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "ficanalcu",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fisucursalcu",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fifoliocu",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "ficanaltdavend",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fisucursaltdavend",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "finopedidotdavend",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fiunidadnegocio",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fcclascar",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "fcsubprodconta",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "fiemisionbursat",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fiseriebursat",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fivencecontractual",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fistatuspedido",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fnimptotalventa",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnimptotalventa",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnenganche",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnenganche",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnsaldoorig",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnsaldoorig",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnimpcapital",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnimpcapital",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnintxfinsiniva",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnintxfinsiniva",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnivaintxfin",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnivaintxfin",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnimpgarantia",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnimpgarantia",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fntasaiva",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fntasaiva",
+          "size": 3,
+          "logicalType": "decimal",
+          "precision": 5,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fntasaint",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fntasaint",
+          "size": 3,
+          "logicalType": "decimal",
+          "precision": 5,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fiplazo",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fiperiodo",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fnimpabono",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnimpabono",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnimpultimoabono",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnimpultimoabono",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnabonopuntual",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnabonopuntual",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fdsurtimiento",
+      "type": [
+        "long",
+        "null"
+      ]
+    },
+    {
+      "name": "fidiagracia",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fdinicioperiodo",
+      "type": [
+        "long",
+        "null"
+      ]
+    },
+    {
+      "name": "fdvencimiento",
+      "type": [
+        "long",
+        "null"
+      ]
+    },
+    {
+      "name": "fidiaservicio",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fidiacongelado",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fidiacorrido",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fidiaatraso",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fidiacred",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fidiasemanaper",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fiperatraso",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fiperatrasoacum",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fiperiodoatraso",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fdprimerimpago",
+      "type": [
+        "long",
+        "null"
+      ]
+    },
+    {
+      "name": "fdultimoabono",
+      "type": [
+        "long",
+        "null"
+      ]
+    },
+    {
+      "name": "fnproporcc",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnproporcc",
+          "size": 4,
+          "logicalType": "decimal",
+          "precision": 9,
+          "scale": 8
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnproporcs",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnproporcs",
+          "size": 4,
+          "logicalType": "decimal",
+          "precision": 9,
+          "scale": 8
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnsobrepredia",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnsobrepredia",
+          "size": 8,
+          "logicalType": "decimal",
+          "precision": 18,
+          "scale": 8
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fncapdiario",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fncapdiario",
+          "size": 8,
+          "logicalType": "decimal",
+          "precision": 18,
+          "scale": 8
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnsaldo",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnsaldo",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnsaldocap",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnsaldocap",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnsaldoint",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnsaldoint",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnivasaldoint",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnivasaldoint",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fiabonoscapital",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fiabonoscapital",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fibonifxabocap",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fibonifxabocap",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnsaldoatrasado",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnsaldoatrasado",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnintdev",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnintdev",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnivaintdev",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnivaintdev",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnidnc",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnidnc",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnivaidnc",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnivaidnc",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnipa",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnipa",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnivaipa",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnivaipa",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnintxdev",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnintxdev",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnivaintxdev",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnivaintxdev",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnidncantven",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnidncantven",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnivaidncantven",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnivaidncantven",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnidncdespven",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnidncdespven",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnivaidncdespven",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnivaidncdespven",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnimpreservcons",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnimpreservcons",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fntemp",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fntemp",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fncapdev",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fncapdev",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fncapdnc",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fncapdnc",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fncappagant",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fncappagant",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fncapxdev",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fncapxdev",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnsaldointmora",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnsaldointmora",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnivasaldointmora",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnivasaldointmora",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fncifractrl",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fncifractrl",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fdfechamodificacion",
+      "type": [
+        "long",
+        "null"
+      ]
+    },
+    {
+      "name": "fcusuariomodifico",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "fnproporcssiva",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnproporcssiva",
+          "size": 4,
+          "logicalType": "decimal",
+          "precision": 9,
+          "scale": 8
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnsobreprediasiva",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnsobreprediasiva",
+          "size": 8,
+          "logicalType": "decimal",
+          "precision": 18,
+          "scale": 8
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fireestructura",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fiindpagosostenido",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fdpagososuno",
+      "type": [
+        "long",
+        "null"
+      ]
+    },
+    {
+      "name": "fnimppagososuno",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnimppagososuno",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fdpagososdos",
+      "type": [
+        "long",
+        "null"
+      ]
+    },
+    {
+      "name": "fnimppagososdos",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnimppagososdos",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fdpagosostres",
+      "type": [
+        "long",
+        "null"
+      ]
+    },
+    {
+      "name": "fnimppagosostres",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnimppagosostres",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnabonodigital",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnabonodigital",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fisubprocesoppid",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fnservicio",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnservicio",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fnsaldoservicio",
+      "type": [
+        {
+          "type": "bytes",
+          "name": "bytes",
+          "namespace": "topLevelRecord.fnsaldoservicio",
+          "size": 6,
+          "logicalType": "decimal",
+          "precision": 12,
+          "scale": 2
+        },
+        "null"
+      ]
+    },
+    {
+      "name": "fifecha",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "fccifracontrol",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  ]
+}
